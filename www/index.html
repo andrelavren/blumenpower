@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="Чашка,кофе,онлайн,домой,доставка">
+		<meta name="Description" content="Заказ кофе онлайн с доставкой.">
+		<title>"Чашка кофе на столе" Онлайн заказ кофе и булочек с доставкой</title>
+
+		<!-- Bootstrap -->
+		<link rel="shortcut icon" href="img/logo_i.png" type="image/png">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container"> 
+			<div class="row">
+				<header>
+					<div class="col-xs-4 col-md-3">
+						<div>
+							<a href="index.html"><img src="img/logo_1.png" class="logo" alt="Barista's Coffee Espresso Bar"></a>
+						</div>
+					</div>
+					<div class="col-xs-8 col-lg-7">
+						<div class="h01">ЧАШКА КОФЕ</div>
+					</div>
+					<div class="col-xs-8 col-lg-7">
+						<div class="phone">+79876543210</div>
+					</div>
+				</header>
+				<content class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+					<form method="POST" action="submit.php" id="wholeOrder">
+						<div class="style1" id="cofhead_1" style="background: url(img/arrow_up.png) 98% center no-repeat #DFCDBF">хочу кофе!</div>
+						<div class="row style2 coffe" id="coffee_1">
+							<div class="col-xs-6 col-sm-4 style33 hardly">
+								<div class="style2">
+									<input class="stylecof" type="radio" id="amerikano_1" name="coffee_1" checked/>
+									<label for="amerikano_1"><span></span>Американо</label>
+									<br>
+									<input class="stylecof" type="radio" id="kapuchino_1" name="coffee_1" />
+									<label for="kapuchino_1"><span></span>Капуччино</label>
+									<br>
+									<input class="stylecof" type="radio" id="latte_1" name="coffee_1" />
+									<label for="latte_1"><span></span>Латте</label>
+									<br>
+									<input class="stylecof" type="radio" id="sweet_1" name="coffee_1" />
+									<label for="sweet_1"><span></span>Свит</label>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-sm-push-4 style33 hardly">
+								<input type="radio" id="ml450_1" name="vol_1" class="stylevol"/>
+								<label for="ml450_1"><span>450ml</span></label>
+								<input type="radio" id="ml330_1" name="vol_1" class="stylevol" checked/>
+								<label for="ml330_1"><span>330ml</span></label>
+								<input type="radio" id="ml250_1" name="vol_1" class="stylevol"/>
+								<label for="ml250_1"><span>250ml</span></label>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-sm-pull-4 style33" id="cupimg_1">
+								<img src="img/coffecup_330.png" alt="Кофе 330мл" class="imgcup">
+							</div>
+							<div class="col-xs-6 col-sm-4 col-sm-push-4 style33">
+								<div>
+									<p class="centerp">Количество</p>
+									<input type="button" value="-" class="sugctrl"/>
+									<input type="text" value="1" class="countcup" name="cupcount_1"/>
+									<input type="button" value="+" class="sugctrl"/>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 col-sm-pull-4 style33">
+								<div>
+									<p class="centerp">Кубики сахара</p>
+									<div class="style33">
+										<input type="button" value="-" class="sugctrl"/>
+										<input type="checkbox" class="stylesug" id="one_1" name="sugar_1" checked/>
+										<label for="one_1"><span></span></label>
+										<input type="checkbox" class="stylesug" id="two_1" name="sugar_1" checked/>
+										<label for="two_1"><span></span></label>
+										<input type="checkbox" class="stylesug" id="three_1" name="sugar_1"/>
+										<label for="three_1"><span></span></label>
+										<input type="checkbox" class="stylesug" id="four_1" name="sugar_1"/>
+										<label for="four_1"><span></span></label>
+										<input type="checkbox" class="stylesug" id="five_1" name="sugar_1"/>
+										<label for="five_1"><span></span></label>
+										<input type="button" value="+" class="sugctrl"/>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6 col-sm-4 style33">
+								<div>
+									<p class="centerp">
+									Сиропы 
+									<img src="img/arrow_up.png" id="syrarr_1" style="vertical-align: middle">
+									</p>
+									<div class="style2 syrups" style="text-align: left" id="syrup_1">
+										<input type="checkbox" class="stylesyr" id="choko_1" name="syrup_1"/>
+										<label for="choko_1"><span>шоколад</span></label>
+										<input type="checkbox" class="stylesyr" id="minth_1" name="syrup_1"/>
+										<label for="minth_1"><span>мята</span></label>
+										<input type="checkbox" class="stylesyr" id="ging_1" name="syrup_1" checked/>
+										<label for="ging_1"><span>имбирь</span></label>
+										<input type="checkbox" class="stylesyr" id="lemon_1" name="syrup_1" checked/>
+										<label for="lemon_1"><span>лимон</span></label>
+										<input type="checkbox" class="stylesyr" id="gren_1" name="syrup_1"/>
+										<label for="gren_1"><span>гренадин</span></label>
+										<input type="checkbox" class="stylesyr" id="maple_1" name="syrup_1"/>
+										<label for="maple_1"><span>клён</span></label>
+										<input type="checkbox" class="stylesyr" id="vanil_1" name="syrup_1"/>
+										<label for="vanil_1"><span>ваниль</span></label>
+										<input type="checkbox" class="stylesyr" id="caram_1" name="syrup_1"/>
+										<label for="caram_1"><span>карамель</span></label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="style1" id="cofhead_2" style="background: url(img/arrow_dn.png) 98% center no-repeat #DFCDBF">хочу ещё кофе!</div>
+						<div class="style1" id="cook" style="background: url(img/arrow_up.png) 98% center no-repeat #DFCDBF">хочу булочку!</div>
+						<div class="row style2">
+							<div class="col-xs-6 col-sm-3">
+								<input type="checkbox" class="stylesug checkcake" id="curd" name="cake" checked/>
+								<label for="curd"><span></span>с творогом</label>
+								<img src="img/cake1.png" class="img-responsive">
+								<p class="centerp">30 руб</p>
+								<input type="button" value="-" class="sugctrl"/>
+								<input type="text" value="1" class="countcup" name="cakecount" id="cake1"/>
+								<input type="button" value="+" class="sugctrl"/>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<input type="checkbox" class="stylesug checkcake" id="cherry" name="cake"/>
+								<label for="cherry"><span></span>с вишней</label>
+								<img src="img/cake2.png" class="img-responsive">
+								<p class="centerp">40 руб</p>
+								<input type="button" value="-" class="sugctrl"/>
+								<input type="text" value="0" class="countcup" name="cakecount" id="cake2"/>
+								<input type="button" value="+" class="sugctrl"/>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<input type="checkbox" class="stylesug checkcake" id="apricot" name="cake"/>
+								<label for="apricot"><span></span>с абрикосом</label>
+								<img src="img/cake3.png" class="img-responsive">
+								<p class="centerp">30 руб</p>
+								<input type="button" value="-" class="sugctrl"/>
+								<input type="text" value="0" class="countcup" name="cakecount" id="cake3"/>
+								<input type="button" value="+" class="sugctrl"/>
+							</div>
+							<div class="col-xs-6 col-sm-3">
+								<input type="checkbox" class="stylesug checkcake" id="apple" name="cake"/>
+								<label for="apple"><span></span>с яблоком</label>
+								<img src="img/cake4.png" class="img-responsive">
+								<p class="centerp">35 руб</p>
+								<input type="button" value="-" class="sugctrl"/>
+								<input type="text" value="0" class="countcup" name="cakecount" id="cake4"/>
+								<input type="button" value="+" class="sugctrl"/>
+							</div>
+						</div>
+						<div class="style2">
+							<p class="centerp">МОЙ ЗАКАЗ</p>
+							<ol id="preorder"></ol>
+						</div>
+						<div class="style2" style="font-size: x-large">
+							способ оплаты:
+							<br class="deal">
+							<input class="stylecof" type="radio" id="cash" name="pay" checked/>
+							<label for="cash"><span></span>наличный</label>
+							<br class="deal">
+							<input class="stylecof" type="radio" id="card" name="pay"/>
+							<label for="card"><span></span>безналичный</label>
+							</div>
+						<div class="row style0">
+							<div class="col-sm-5">
+								<input class="style3" type="text" placeholder="Имя" name="name"/>
+								<input class="style3" type="text" placeholder="Адрес" name="adress"/>
+								<input class="style3" type="text" placeholder="Телефон" name="phone"/>
+							</div>
+							<div class="col-sm-5 verti-fluid">
+								<textarea class="comments" placeholder="Комментарий..." name="comment"></textarea>
+							</div>
+							<div class="col-sm-2 verti-fluid">
+								<input class="orderok btn-block" type="submit" value="ЗАКАЗАТЬ!"/>
+							</div>
+						</div>
+					</form>
+				</content>
+				<footer class="col-md-12 col-lg-8 col-lg-offset-2">
+					<div class="centerp">
+						<a href="about.html" class="stylebuttons">о нас</a>
+						<a href="contacts.html" class="stylebuttons">контакты</a>
+					</div>
+					<p class="centerp">Данный сайт является демонстрационно-отладочной версией<br>2017&nbsp;©&nbsp;Андрей Лаврентьев</p>
+				</footer>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script defer src="js/jquery-1.11.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script defer src="js/bootstrap.min.js"></script>
+		<!-- Myself script, based on jQuery -->
+		<script defer src="js/script.js"></script>
+	</body>
+</html>

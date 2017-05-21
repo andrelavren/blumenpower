@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="Чашка,кофе,онлайн,домой,доставка">
+	<meta name="Description" content="Заказ кофе онлайн с доставкой.">
+    <title>"Чашка кофе на столе" Онлайн заказ кофе и булочек с доставкой</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container"> 
+		<div class="row hat"> 
+			<div class="col-sm-3 col-md-3 col-lg-2">
+				<div class="logo">
+					<a href="index1.html"><img src="img/logo_1.png" alt="logo"></a>
+				</div>
+<!--    <header>
+    <div class="col-md-2 _container hat ">
+			<!--<div class="logo">
+				<a href="index1.html"><img src="img/logo_1.png" alt="logo"></a>
+			</div>
+			<div class="h01">Ч А Ш К А <span style="color: transparent">-</span> К О Ф Е</div>
+			<div class="phone">+79881111111</div>-->
+    <!--<div class="wrapper">
+	<div class="logo_left">
+	   <a href="index1.html"><img src="img/logo_1.png" alt="logo"></a>
+	</div>
+	   <div class="h01">Ч А Ш К А <span style="color: transparent">-</span> К О Ф Е</div>
+			<div class="phone">+79881111111</div>
+	</div>
+	
+		</div>
+			
+    </header> -->
+			</div>
+			<div class="col-sm-9 col-md-9 col-lg-8">
+				<div class="h01">Ч А Ш К А <span style="color: transparent">-</span> К О Ф Е</div>
+				<div class="phone">+79881111111</div>
+				<content>
+					<form method="POST" action="submit.php">
+			<div class="style1" id="cof_1">хочу кофе!</div>
+			<div class="coffe-container">
+			
+			</div>
+			<div class="style2 coffe">
+				<div class="style33">
+					<div class="style2">
+						<input class="stylecof" type="radio" id="amerikano" name="coffee" checked/>
+						<label for="amerikano"><span></span>Американо</label>
+						<br>
+						<input class="stylecof" type="radio" id="kapuchino" name="coffee" />
+						<label for="kapuchino"><span></span>Капуччино</label>
+						<br>
+						<input class="stylecof" type="radio" id="latte" name="coffee" />
+						<label for="latte"><span></span>Латте</label>
+						<br>
+						<input class="stylecof" type="radio" id="sweet" name="coffee" />
+						<label for="sweet"><span></span>Свит</label>
+					</div>
+				</div>
+				<div class="style33" id="cupimg_1">
+					<img src="img/coffecup_330.png" alt="Кофе 330мл" class="imgcup">
+				</div>
+				<div class="style33">
+					<input type="radio" id="ml450" name="vol" class="stylevol"/>
+					<label for="ml450"><span>450ml</span></label>
+					<input type="radio" id="ml330" name="vol" class="stylevol" checked/>
+					<label for="ml330"><span>330ml</span></label>
+					<input type="radio" id="ml250" name="vol" class="stylevol"/>
+					<label for="ml250"><span>250ml</span></label>
+				</div>
+				<div class="style33">
+					<p class="centerp">Сахар</p>
+					<div class="style33">
+						<input type="button" value="-" class="sugctrl"/>
+						<input type="checkbox" class="stylesug" id="one" name="sugar" checked/>
+						<label for="one"><span></span></label>
+						<input type="checkbox" class="stylesug" id="two" name="sugar" checked/>
+						<label for="two"><span></span></label>
+						<input type="checkbox" class="stylesug" id="three" name="sugar"/>
+						<label for="three"><span></span></label>
+						<input type="checkbox" class="stylesug" id="four" name="sugar"/>
+						<label for="four"><span></span></label>
+						<input type="checkbox" class="stylesug" id="five" name="sugar"/>
+						<label for="five"><span></span></label>
+						<input type="button" value="+" class="sugctrl"/>
+					</div>
+				</div>
+				<div class="style33">
+					<p class="centerp">Количество</p>
+					<input type="button" value="-" class="sugctrl"/>
+					<input type="text" value="1" class="countcup" name="cupcount"/>
+					<input type="button" value="+" class="sugctrl"/>
+				</div>
+				<div class="style33">
+					<p class="centerp" >Сиропы <img src="img/arrow_dn.png" id="syrarr_1" style="vertical-align: middle"></p>
+					<div class="style2" style="text-align: left" id="syrup_1">
+						<input type="checkbox" class="stylesyr" id="choko" name="syrup"/>
+						<label for="choko"><span>шоколад</span></label>
+						<input type="checkbox" class="stylesyr" id="minth" name="syrup"/>
+						<label for="minth"><span>мята</span></label>
+						<input type="checkbox" class="stylesyr" id="ging" name="syrup" checked/>
+						<label for="ging"><span>имбирь</span></label>
+						<input type="checkbox" class="stylesyr" id="lemon" name="syrup" checked/>
+						<label for="lemon"><span>лимон</span></label>
+						<input type="checkbox" class="stylesyr" id="gren" name="syrup"/>
+						<label for="gren"><span>гренадин</span></label>
+						<input type="checkbox" class="stylesyr" id="maple" name="syrup"/>
+						<label for="maple"><span>клён</span></label>
+						<input type="checkbox" class="stylesyr" id="vanil" name="syrup"/>
+						<label for="vanil"><span>ваниль</span></label>
+						<input type="checkbox" class="stylesyr" id="caram" name="syrup"/>
+						<label for="caram"><span>карамель</span></label>
+					</div>
+				</div>
+			</div>
+			<div class="style1" id="cof_2">хочу ещё кофе!</div>
+			<div class="style1" id="cook_1">хочу булочку!</div>
+			<div class="style2">
+				<p class="centerp">МОЙ ЗАКАЗ</p>
+				<ol>
+					<li><div>Кофе "Американо" 330ml сахар: 2шт сироп: имбирь лимон  1 х 150</div><div></div><div></div></li>
+				</ol>
+			</div>
+			<div class="style2" style="font-size: x-large">
+				способ оплаты:
+				<input class="stylecof" type="radio" id="courier" name="pay" checked/>
+				<label for="courier"><span></span>курьеру</label>
+				<input class="stylecof" type="radio" id="card" name="pay"/>
+				<label for="card"><span></span>Visa/MasterCard</label>
+			</div>
+			<div class="style0">
+				<div class="style01">
+					<input class="style3" type="text" placeholder="Имя" name="name"/>
+					<input class="style3" type="text" placeholder="Адрес" name="adress"/>
+					<input class="style3" type="text" placeholder="Телефон" name="phone"/>
+				</div>
+				<div class="style01">
+					<textarea class="comments" placeholder="Комментарий..." name="comment"></textarea>
+				</div>
+				<input class="orderok" type="submit" value="ЗАКАЗАТЬ!"/>
+			</div>
+		</form>
+				</content>
+			</div>
+			<div class="col-md-0 col-lg-2">0
+			</div>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="_js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="_js/bootstrap.min.js"></script>
+  </body>
+</html>
